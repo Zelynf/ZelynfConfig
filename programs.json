@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Logo",
+    "winpath": "",
+    "path": "./logo.txt",
+    "cmd": "",
+    "process": "",
+    "isprogram": false
+  },
+  {
+    "id": 1,
+    "name": "Neovim",
+    "winpath": "~/appdata/local/nvim/",
+    "path": "./nvim/",
+    "cmd": "nvim",
+    "process": "nvim",
+    "isprogram": true
+  },
+  {
+    "id": 2,
+    "name": "PowerShell",
+    "winpath": "~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
+    "path": "./PowerShell/",
+    "cmd": "pwsh",
+    "process": "pwsh",
+    "isprogram": true
+  },
+  {
+    "id": 3,
+    "name": "WezTerm",
+    "winpath": "~/.config/wezterm/",
+    "path": "./wezterm/",
+    "cmd": "wezterm",
+    "process": "wezterm-gui",
+    "isprogram": true
+  } 
+]
