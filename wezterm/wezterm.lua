@@ -10,8 +10,8 @@ local config = wezterm.config_builder()
 
 -- Open PowerShell as default Shell (-NoLogo flag to avoid showing version and loading time)
 config.default_prog = { "pwsh", "-NoLogo" }
--- Configure to use JetBrains Mono as default font
-config.font = wezterm.font 'JetBrains Mono'
+-- Configure to use 0xProto as default font
+config.font = wezterm.font '0xProto'
 -- Change color scheme (theme) to Flexoki Dark (https://github.com/kepano/flexoki/tree/main/wezterm)
 config.color_scheme = "Flexoki Dark"
 config.color_scheme_dirs = { './colors/' }
@@ -66,13 +66,12 @@ config.keys = {
   },
 
   -- paste from the clipboard
-  { 
-    key = 'V', 
-    mods = 'CTRL', 
-    action = act.PasteFrom 'Clipboard' 
+  {
+    key = 'V',
+    mods = 'CTRL',
+    action = act.PasteFrom 'Clipboard'
   },
 }
 
 -- NOTE: End of configuration
 return config
-
